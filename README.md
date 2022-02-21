@@ -16,3 +16,4 @@ sudo dpkg --add-architecture i386 && sudo apt-get update && sudo apt-get install
 cd ~/.wine/drive_c/Python27
 wine python.exe Scripts/pip.exe install pyinstaller==2.1
 ```
+maybe is necessary to use pip3 about the previous command
